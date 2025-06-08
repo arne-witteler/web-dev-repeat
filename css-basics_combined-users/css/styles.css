@@ -89,10 +89,19 @@ li {
   Part 2
 
   For all .user elements inside an unordered list:
-    - hide the .bio
-    - align the .location to the left and set it's color to darkslategray
+    - hide the .bio ✅
+    - align the .location to the left and set it's color to darkslategray ✅
 
   Make sure to not change the styles of the .user element anywhere else.
 
   💡 You can use the display property to hide elements.
 */
+
+ul .user .bio {
+  display: none;
+}
+
+ul .user .location {
+  text-align: left;
+  color: darkslategray;
+}
