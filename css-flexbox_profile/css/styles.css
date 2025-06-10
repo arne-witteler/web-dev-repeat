@@ -33,3 +33,12 @@ body {
   color: #ffffff;
   border-radius: 10px;
 }
+
+.profile {
+  text-align: center;
+}
+
+.profile h2,
+.profile p {
+  text-align: start;
+}
