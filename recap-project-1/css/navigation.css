@@ -1,0 +1,15 @@
+.navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: lightcyan;
+  padding: 0.5em 0;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-icon {
+  font-size: 1.8rem;
+  cursor: pointer;
+}
